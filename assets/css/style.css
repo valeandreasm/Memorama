@@ -1,0 +1,122 @@
+body{background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 1%, rgba(131,4,135,1) 25%, rgba(251,16,207,0.8576680672268908) 70%, rgba(27,217,255,1) 92%);
+    font-family: sans-serif;
+    color: white;
+    background-attachment: fixed;
+}
+
+main{
+    width: 730px;
+    margin: 100px auto 50px;
+    display: flex;
+    align-items: center;   
+}
+.section1{
+    background-color: rgba(255,255,255,0.2);
+    padding:0 10px 10px 10px;
+    border-radius: 8px;
+    height:auto;
+}
+
+.section3{
+    background-color: rgba(255,255,255,0.2);
+    padding:0 10px 10px 10px;
+    border-radius: 8px;
+    width: 730px;
+    margin: 100px auto 50px;
+    display:list-item;
+    list-style: none;
+}
+
+h1{
+    text-align: center;
+}
+button{
+    height:100px;
+    width: 100px;
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+}
+button:hover{
+    cursor: pointer;
+}
+.section2{
+    background-color: rgba(255,255,255,0.2);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 250px;
+    height: 400px;
+    padding: 0 20px;
+}
+.estadisticas{
+    border: 1px solid white;
+    height: 105px;
+    border-radius: 8px;
+    padding: 8px 20px;
+    box-sizing: border-box;
+}
+footer{
+    text-align: center;
+}
+a{ 
+    text-decoration: none;
+}
+img{
+    height: 80%;
+}
+
+#footer{
+    font-size: 0.70rem;
+}
+
+#cat{
+    height: 6rem;
+}
+
+#d-titulo{
+    text-align: center;
+    font-size: 1.3rem;
+}
+#d-contenido{
+    text-align:center;
+    font-size: 1rem;
+}
+#boton{
+    width: auto;
+    height: auto;
+}
+
+#reset-button{
+    height: auto;
+    width: auto;
+    margin: 4%;
+    font-size: 1rem;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: #6c757d;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+
+.descripcion{
+    margin: 3%;
+}
+.comenzar{
+    margin-top: 4%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.comenzar .btn-secondary:hover {
+    background-color: #0084ff;
+    border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+    background-color: #0084ff;
+    border-color: #6c757d;
+    color: #ffffff;
+}

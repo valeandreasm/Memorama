@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Juego Miaumorama</title>
+</head>
+<body>
+    <main>
+        <section class="section1">
+            
+            <svg viewBox="0 0 400 150">
+                <text font-size="32" fill="white" text-anchor="middle">
+                    <textPath href="#text-curve" startOffset="50%">ᗰIᗩᑌᗰOᖇᗩᗰᗩ</textPath>
+                </text>
+                <image href="./assets/img/Gato-removebg-preview.png" x="150" y="50" width="100" height="100" />
+                <defs>
+                    <path id="text-curve" d="M 50 100 Q 200 20 350 100" />
+                </defs>
+            </svg>
+
+            <table>
+                <tr>
+                    <td><button id="0" onclick="destapar (0)"></button></td>
+                    <td><button id="1"onclick="destapar (1)"></button></td>
+                    <td><button id="2" onclick="destapar (2)"></button></td>
+                    <td><button id="3" onclick="destapar (3)"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="4" onclick="destapar (4)"></button></td>
+                    <td><button id="5" onclick="destapar (5)"></button></td>
+                    <td><button id="6" onclick="destapar (6)"></button></td>
+                    <td><button id="7" onclick="destapar (7)"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="8" onclick="destapar (8)"></button></td>
+                    <td><button id="9" onclick="destapar (9)"></button></td>
+                    <td><button id="10" onclick="destapar (10)"></button></td>
+                    <td><button id="11" onclick="destapar (11)"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="12" onclick="destapar (12)"></button></td>
+                    <td><button id="13" onclick="destapar (13)"></button></td>
+                    <td><button id="14" onclick="destapar (14)"></button></td>
+                    <td><button id="15" onclick="destapar (15)"></button></td>
+                </tr>
+            </table>
+
+            <footer>
+                <p id="footer">
+                    Las probabilidades de que lo haya programado un gato son bajas,<br> pero nunca cero. <br>
+                    <img id="cat" src="./assets/img/Cat_gif_no_bck.gif" alt="cat_gif">
+                </p>                
+            </footer>
+            
+            <button id="reset-button" class="btn btn-secondary hide">Prueba de nuevo</button>
+
+        </section>
+        <section class="section2">
+            <h2 id="aciertos" class="estadisticas">Aciertos: 0</h2>
+            <h2 id="tiempo-restante" class="estadisticas">Tiempo: 30 segundos</h2>
+            <h2 id="movimientos"class="estadisticas">Movimientos: 0</h2>
+
+        </section>
+    </main>
+</body>
+<script src="./assets/js/script.js"></script>
+</html>
